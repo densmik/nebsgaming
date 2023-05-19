@@ -36,23 +36,23 @@
     .player-overlay .overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; opacity: 0.4; background: #000; }
     .player-overlay .text { position: absolute; left: 0; right: 0; top: 0; bottom: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 30px; text-transform: uppercase; font-weight: 700; }
 
-    @@media(max-width: 1535px) {
+    @media(max-width: 1535px) {
       .video-container, .video-container .video { height: 500px; }
       .grid-row { grid-template-columns: 1fr 1fr; }
     }
 
-    @@media(max-width: 991px) {
+    @media(max-width: 991px) {
       .grid-row { grid-template-columns: 1fr 1fr 1fr; }
       .row { flex-direction: column-reverse; }
       .discord-container { width: 100%; }
       .players-container { width: 100%; }
     }
 
-    @@media(max-width: 768px) {
+    @media(max-width: 768px) {
       .grid-row { grid-template-columns: 1fr 1fr; }
     }
 
-    @@media(max-width: 525px) {
+    @media(max-width: 525px) {
       .grid-row { grid-template-columns: 1fr; }
     }
   </style>
