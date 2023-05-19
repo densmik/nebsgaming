@@ -5,7 +5,7 @@ main { position: relative; flex: 1 1 auto; }
 .nebs-logo svg { width: 200px; margin: 10px; }
 .video-container { position: relative; height: 800px; }
 .video-container .video { object-fit: cover; object-position: center; height: 800px; width: 100%; }
-.video-container .overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; opacity: 0.1; background: #000; }
+.video-container .overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; opacity: 0.3; background: #000; }
 .players-outer-container { margin-top: -150px; }
 .player { background: linear-gradient(0deg, rgb(31 46 70 / 76%) 40%, rgb(74 74 74) 100%); box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; }
 .player .names { background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(88,101,242,0) 100%); }
