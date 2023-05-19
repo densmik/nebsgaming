@@ -21,10 +21,13 @@ main { position: relative; flex: 1 1 auto; }
 .discord-container { z-index: 1; width: 33%; }
 .discord-container iframe { width: 100%; height: 768px; z-index: 1; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; }
 .players-container { z-index: 1; width: 66%; }
-.player:hover .player-overlay { visibility: visible; opacity: 1; }
-.player-overlay { visibility: hidden; opacity: 0; transition: visibility 0s, opacity 0.2s linear; }
+.player-overlay { visibility: hidden; opacity: 0; transition: visibility 0s, opacity 0.3s linear; }
 .player-overlay .overlay { position: absolute; left: 0; top: 0; right: 0; bottom: 0; opacity: 0.4; background: #000; }
-.player-overlay .text { position: absolute; left: 0; right: 0; top: 0; bottom: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 30px; text-transform: uppercase; font-weight: 700; }
+.player-overlay .socials {  position: absolute; right: -40px; bottom: 0; top: 0; transition: 0.3s; display: flex; flex-direction: column; gap: 10px; justify-content: center; width: 40px; text-align: center; }
+.player-overlay .socials img, .player-overlay .socials svg {  width: 25px; }
+.player-overlay .socials .csgo-stats-logo{  width: 40px; }
+.player:hover .player-overlay { visibility: visible; opacity: 1; }
+.player:hover .player-overlay .socials { right: 10px;}
 
 @media(max-width: 1535px) {
   .video-container, .video-container .video { height: 500px; }
