@@ -1,5 +1,8 @@
-body { display: flex; flex-direction: column; margin: 0; background-color: #313338; padding-bottom: 60px; font-family: system-ui; min-height: 100vh; }
+body { display: flex; flex-direction: column; margin: 0; background-color: #313338; font-family: system-ui; min-height: 100vh; }
 main { position: relative; flex: 1 1 auto; }
+footer { background-color: #1E1F22; padding: 15px 0; margin-top: 80px; text-align: center; }
+footer a { color: #fff; text-decoration: none; font-size: 14px; }
+footer a:hover { text-decoration: underline; }
 .container { max-width: 1650px; padding: 0 15px; margin: 0 auto; }
 .top { position: absolute; z-index: 1; gap: 20px; left: 10px; top: 10px; right: 10px; display: flex; justify-content: space-between; }
 .nebs-logo { width: 200px; }
