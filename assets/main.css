@@ -1,11 +1,11 @@
-body { display: flex; flex-direction: column; margin: 0; background-color: #313338; font-family: system-ui; min-height: 100vh; margin-top: 30px; }
+body { display: flex; flex-direction: column; margin: 0; background-color: #313338; font-family: system-ui; min-height: 100vh; margin-top: 31px; }
 main { position: relative; flex: 1 1 auto; }
 footer { background-color: #1E1F22; padding: 15px 0; margin-top: 80px; text-align: center; }
 footer a { color: #fff; text-decoration: none; font-size: 14px; }
 footer a:hover { text-decoration: underline; }
-.warning { position: fixed; top: 0; left: 0; right: 0; background: #F7C62B; z-index: 99; padding: 0 20px; text-transform: uppercase; height: 30px; display: flex; align-items: center; justify-content: center; }
+.warning { position: fixed; top: 0; left: 0; right: 0; background: #F7C62B; z-index: 99; padding: 0 20px; text-transform: uppercase; height: 31px; display: flex; align-items: center; justify-content: center; }
 .container { max-width: 1650px; padding: 0 15px; margin: 0 auto; }
-.top { position: absolute; z-index: 1; gap: 20px; left: 	10px; top: 10px; right: 10px; display: flex; justify-content: space-between; }
+.top { position: absolute; z-index: 1; gap: 20px; left: 10px; top: 10px; right: 10px; display: flex; justify-content: space-between; }
 .nebs-logo { width: 200px; }
 .gamebox-logo { width: 180px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
 .video-container { position: relative; height: 800px; }
