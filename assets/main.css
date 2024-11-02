@@ -4,7 +4,7 @@ footer { background-color: #1E1F22; padding: 15px 0; text-align: center; }
 footer a { color: #fff; text-decoration: none; font-size: 14px; }
 footer a:hover { text-decoration: underline; }
 .container { max-width: 1650px; padding: 0 15px; margin: -200px auto 80px; } 
-.top { display: flex; position: relative; justify-content: space-between; padding: 10px 10px 0 10px; height: 800px; background-image: url("./top_banner.jpg"); background-position: center; background-size: cover;     background-repeat: no-repeat; }
+.top { display: flex; position: relative; justify-content: space-between; padding: 10px 10px 0 10px; height: 800px; background-image: url("./top_banner.webp"); background-position: center; background-size: cover;     background-repeat: no-repeat; }
 .top a { z-index: 1; }
 .top .overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: #000; opacity: 0.2; }
 .nebs-logo { width: 200px; }
