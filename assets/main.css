@@ -51,7 +51,7 @@ footer a:hover { text-decoration: underline; }
 @media(max-width: 768px) {
   .grid-row { grid-template-columns: 1fr 1fr; }
   .container { margin-top: -100px; }
-  .top { height: 500px }
+  .top { height: 500px; background-image: url("./top_banner_mobile.webp"); }
 }
 
 @media(max-width: 525px) {
