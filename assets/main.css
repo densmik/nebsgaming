@@ -3,8 +3,10 @@ main { position: relative; flex: 1 1 auto; }
 footer { background-color: #1E1F22; padding: 15px 0; text-align: center; }
 footer a { color: #fff; text-decoration: none; font-size: 14px; }
 footer a:hover { text-decoration: underline; }
-.container { max-width: 1650px; padding: 0 15px; margin: 80px auto; }
-.top { display: flex; justify-content: space-between; margin: 10px 10px 0 10px; }
+.container { max-width: 1650px; padding: 0 15px; margin: -200px auto 80px; } 
+.top { display: flex; position: relative; justify-content: space-between; padding: 10px 10px 0 10px; height: 800px; background-image: url("./top_banner.jpg"); background-position: center; background-size: cover;     background-repeat: no-repeat; }
+.top a { z-index: 1; }
+.top .overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: #000; opacity: 0.2; }
 .nebs-logo { width: 200px; }
 .gamebox-logo { width: 180px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
 .content { display: flex; gap: 30px; }
@@ -32,6 +34,10 @@ footer a:hover { text-decoration: underline; }
 .player:hover .active-player { visibility: visible; opacity: 1; }
 .player:hover .active-player .socials { right: 10px; }
 
+@media(max-width: 1920px) {
+  .top { height: 700px;  }
+}
+
 @media(max-width: 1535px) {
   .grid-row { grid-template-columns: 1fr 1fr; }
 }
@@ -44,6 +50,8 @@ footer a:hover { text-decoration: underline; }
 
 @media(max-width: 768px) {
   .grid-row { grid-template-columns: 1fr 1fr; }
+  .container { margin-top: -100px; }
+  .top { height: 500px }
 }
 
 @media(max-width: 525px) {
