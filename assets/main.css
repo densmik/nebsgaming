@@ -4,11 +4,13 @@ footer { background-color: #1E1F22; padding: 15px 0; text-align: center; }
 footer a { color: #fff; text-decoration: none; font-size: 14px; }
 footer a:hover { text-decoration: underline; }
 .container { max-width: 1650px; padding: 0 15px; margin: -200px auto 80px; } 
-.top { display: flex; position: relative; justify-content: space-between; padding: 10px 10px 0 10px; height: 800px; background-image: url("./top_banner.webp"); background-position: center; background-size: cover;     background-repeat: no-repeat; }
-.top a { z-index: 1; }
+.top { position: relative; height: 800px; background-image: url("./top_banner.webp"); background-position: center; background-size: cover; background-repeat: no-repeat; }
+.top a { position: absolute; z-index: 1; top: 10px; }
 .top .overlay { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: #000; opacity: 0.2; }
-.nebs-logo { width: 200px; }
-.gamebox-logo { width: 180px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+.nebs-logo { left: 10px; }
+.nebs-logo svg { width: 200px; }
+.gamebox-logo { right: 10px; }
+.gamebox-logo img { width: 180px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
 .content { display: flex; gap: 30px; }
 .player { background: linear-gradient(0deg, rgb(31 46 70 / 76%) 40%, rgb(74 74 74) 100%); box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; }
 .player .names { background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(88,101,242,0) 100%); }
