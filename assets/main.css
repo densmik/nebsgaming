@@ -57,7 +57,10 @@ footer a:hover { text-decoration: underline; }
 }
 
 @media(max-width: 525px) {
-  .nebs-logo { width: 150px; }
-  .gamebox-logo { width: 150px; }
+  .grid-row { grid-template-columns: 1fr; }
+}
+
+@media(max-width: 420px) {
+  .gamebox-logo { display: none; }
   .grid-row { grid-template-columns: 1fr; }
 }
